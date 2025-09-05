@@ -16,21 +16,30 @@
 
 //3 variables , cual es mayor , cual es menor o si son iguales
 //console.log();
-let numeroComparacion1=parseInt(prompt("Ingresa primer numero"));
-let numeroComparacion2=parseInt(prompt("Ingresa segundo  numero"));
-let numeroComparacion3=parseInt(prompt("Ingresa tercer numero"));
-console.log("Primer numero "+numeroComparacion1);
-console.log("Segundo numero "+numeroComparacion2);
-console.log("Tercer numero "+numeroComparacion3);
-var compararigual= numeroComparacion1 == numeroComparacion2 && numeroComparacion2 == numeroComparacion3 &&numeroComparacion1 ==numeroComparacion3;
 
- console.log("El mayor es",Math.max(numeroComparacion1,numeroComparacion2,numeroComparacion3))
- console.log("El menor es",Math.min(numeroComparacion1,numeroComparacion2,numeroComparacion3))
-if (compararigual) {
-    console.log("Son iguales");
-    
-    
-} else {
-    console.log("No son iguales");
-    
+console.log("El primer numero es: ",numero1);
+console.log("El segundo numero es: ",numero2);
+console.log("El tercer numero es: ",numero3);
+let mayor = numero1;
+if (numero2 > mayor) { 
+  mayor = numero2;
+}
+if (numero3 > mayor) { 
+  mayor = numero3;
+}
+console.log("\nEl mayor es:", mayor);
+let menor = numero1;
+if (numero2 < menor) { 
+  menor = numero2;
+}
+if (c < menor) {
+  menor = numero3;
+}
+console.log("El menor es:", menor);
+if (numero1 === numero2 && numero2 === numero3) { 
+  console.log("Los 3 numeros son iguales");
+} else if (numero1 === numero2 || numero1 === numero3 || numero2 === numero3) { 
+  console.log("Hay 2 son iguales");
+} else { 
+  console.log("No hay numeros iguales"); 
 }
