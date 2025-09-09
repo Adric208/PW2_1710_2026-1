@@ -1,5 +1,5 @@
+/*
 const frutas =["Banana"];
-
 
 frutas.push("sandia");//al fina 
 frutas.unshift("mango");//al inici
@@ -28,7 +28,7 @@ console.log(fruta);
  }
 
 
-
+*/
 
 
 
