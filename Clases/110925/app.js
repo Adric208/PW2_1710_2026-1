@@ -14,10 +14,14 @@ function mostrarNombres(){
     if(nombres.length == 0){
         alter(`Arreglo Vacio`)
     }else{
-        let mensaje="Nombres almacenados \n"
-        nombres.array.forEach(nombre,index => {
-            mensaje += `${index+1}. ${nombre}\n`;
-        });
+       /* let mensaje="Nombres almacenados \n"
+        nombres.forEach((nombre, index) => {
+            mensaje += `${index + 1}. ${nombre}\n`;*/
+            let mensaje = "Nombres almacenados:\n";
+
+for (let i = 0; i < nombres.length; i++) {
+  mensaje += `${i + 1}. ${nombres[i]}\n`;
+        };
         alert(mensaje)
     }
 }
