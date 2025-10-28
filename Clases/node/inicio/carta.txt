@@ -1,0 +1,12 @@
+carta
+Node es un entorno de ejecución de código abierto y multiplataforma que permite ejecutar código JavaScript fuera del navegador, principalmente en el lado del servidor. Está construido sobre el motor V8 de Google Chrome y es conocido por su eficiencia en el manejo de conexiones simultáneas gracias a su modelo de entrada/salida (E/S) basado en eventos y no bloqueante. Esto lo hace ideal para desarrollar aplicaciones rápidas, escalables y en tiempo real. 
+Características principales
+Modelo de E/S no bloqueante y orientado a eventos: Node.js puede manejar múltiples solicitudes y operaciones a la vez sin detenerse a esperar que cada una termine, lo que lo hace muy eficiente. 
+npm (Node Package Manager): Un administrador de paquetes que simplifica la instalación y gestión de bibliotecas y herramientas, acelerando el desarrollo. 
+Velocidad: Gracias al motor V8 de Chrome, ejecuta código JavaScript de manera extremadamente rápida. 
+Multiplataforma: Funciona en Windows, macOS y Linux. 
+Usos comunes
+Servidores web: Es muy popular para crear servidores web eficientes y escalables.
+Aplicaciones en tiempo real: Ideal para aplicaciones que requieren comunicación instantánea, como chats y juegos online.
+Microservicios: Permite construir arquitecturas basadas en microservicios para simplificar la escalabilidad y el mantenimiento de aplicaciones grandes.
+Procesamiento de datos: Es excelente para manejar grandes cantidades de datos y peticiones simultáneas.
