@@ -1,9 +1,16 @@
 const express = require('express');
 const app = express();
-const PORT = 150;
+const pageRouters = require('./routes/Pages');
+
+const path = require('path');
+app.use('/', pageRouters);
 app.get('/', (req, res) => {
-  res.send('Servidor activo');
+  res.redirect('/page1');
 });
+
+const PORT = 150;
+
+
 app.listen(PORT, () => {
   console.log(`En web http://localhost:${PORT}`);
 });
