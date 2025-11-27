@@ -1,0 +1,21 @@
+/* Ajustes generales */
+body {
+    background-color: #becedf;
+}
+
+/* Tabla */
+table td input {
+    width: 100%;
+}
+
+/* Mensajes */
+.alerta {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Hover para filas */
+tbody tr:hover {
+    background-color: #be9f9f;
+    cursor: pointer;
+}
